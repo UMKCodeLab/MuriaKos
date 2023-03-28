@@ -2,4 +2,3 @@
 Tugas web Interaksi Manusia dan Komputer
 <br>
 tema : Pemilihan tempat kos
-sudah bisa
