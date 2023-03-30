@@ -1,0 +1,7 @@
+/* font-family: 'Plus Jakarta Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&family=Poppins:wght@400;500;600;800&display=swap');
+body {
+    background-color: #000000;
+    font-family: 'Plus Jakarta Sans', 'Poppins', sans-serif;
+}
