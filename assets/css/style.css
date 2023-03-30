@@ -1,7 +1,56 @@
-/* font-family: 'Plus Jakarta Sans', sans-serif;
-font-family: 'Poppins', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&family=Poppins:wght@400;500;600;800&display=swap');
 body {
-    background-color: #000000;
+    background-color: #EEEFF4;
     font-family: 'Plus Jakarta Sans', 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+section{
+    margin-top: 200px;
+}
+
+.container{
+    max-width: 1500px;
+}
+
+nav{
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+
+}
+.navbar-logo{
+    margin-left: 5%;
+    width: 198px;
+    height: 60px;
+    background: #4637FB;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #CFD9F5;
+    font-weight: 700;
+}
+.navbar-logo p {
+    position: absolute;}
+.navbar-menu .menu{
+    display: flex;
+    gap: 54px;
+    font-family: 'Poppins';
+    font-size: 24px;
+    color: #4475F2;
+    font-size: 16px;
+    margin-right: 5%;
 }
