@@ -117,3 +117,44 @@ nav{
     padding-top: 20px;
 }
 /* akhir header */
+
+/* main */
+.judul {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.judul h1 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    color: #4475F2;
+}
+
+.judul img {
+    margin-right: 10px;
+    width: 63px;
+    height: 63px;
+}
+
+.box-menu {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;    
+    gap: 100px;
+    padding: 20px;
+}
+.map {
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right:5%;
+    height: 348px;   
+}
+.map iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+/* akhir main */
