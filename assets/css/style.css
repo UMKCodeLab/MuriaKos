@@ -265,3 +265,122 @@ main .teks-judul{
     transition: 0.5s;
 }
 /* akhir box-kos */
+
+/* masukan */
+.judul-masukan {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.box-masukan {
+    justify-content: center;
+    gap: 70px;
+    display: flex;
+}
+.masukan h1 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 62px;
+    color: #4475F2;
+}
+
+.masukan img {
+    margin-right: 10px;
+    width: 63px;
+    height: 63px;
+}
+.teks-masukan {
+    width: 495px;   
+    height: 568px;    
+}
+.teks-masukan h1 {
+    padding-left: 5%;
+    margin-top: 60px;
+    display: flex;
+    width: 530px;
+    height: 120px;
+    left: 78px;
+    top: 4307px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.teks-masukan p {
+    padding-top: 30px;
+    padding-left: 5%;
+    width: 475px;
+    height: 325px;
+    left: 78px;
+    top: 4450px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+}
+.form-masukan {
+    width: 495px;
+    height: 568px;
+    }
+form {
+    margin-top: 60px;
+    background: #4F7DF3;
+    border-radius: 30px;
+    height: 440px;
+}
+.form-masukan h1 {
+    padding-top: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.form-masukan input {
+    border: none;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 430px;
+    height: 55px;
+    border-radius: 15px;
+    padding-left: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+}
+.form-masukan textarea {
+    margin-top: 10px;
+    padding-top: 15px;
+    border: none;
+    margin-left: 5%;
+    width: 430px;
+    height: 90px;
+    border-radius: 15px;
+    padding-left: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    max-width: 430px;
+    max-height: 165px;
+}
+
+.form-masukan button {
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 430px;
+    height: 75px;
+    border-radius: 15px;
+}
+/* akhir masukan */
