@@ -177,6 +177,52 @@ main .teks-judul{
     display: flex;
     gap: 20px;
 }
+
+.kos img {
+    object-fit: cover;
+    width: 100%;
+}
+.kos .harga {
+    margin-left: 9px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.kos .spec {
+    margin-left: 9px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+.kos .alamat {
+    margin-left: 9px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.kos .gender {
+    margin-left: 9px;
+    margin-top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.kos .map {
+    margin-top: 2px;
+    float: right;
+    width: 58.6px;
+    height: 61px;
+}
 .box-kos2 {
     margin: 0 5%;
     display: flex;
@@ -207,6 +253,7 @@ main .teks-judul{
 }
 
 .kos:hover {
+    color: white;
     background: linear-gradient(153.11deg, #4737FF -8.33%, #4737FF 69.95%, #000000 145.03%);
     box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.25);
     transition: 0.5s;
