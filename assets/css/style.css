@@ -5,6 +5,7 @@ body {
 }
 
 *{
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -179,7 +180,6 @@ main .teks-judul{
 }
 
 .kos img {
-    object-fit: cover;
     width: 100%;
 }
 .kos .harga {
