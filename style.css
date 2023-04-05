@@ -465,7 +465,6 @@ form {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 9999;
 }
 
 .footer h1 {
@@ -502,6 +501,41 @@ form {
 	font-weight: bold;
 	text-decoration-line: underline;
 } */
+
+
+
+/* layar hp */
+@media only screen and (max-width: 600px) {
+    .navbar nav {
+        display: none;
+    }
+    .navbar_footer {
+        display: none;
+    }
+    .header h1 {
+        margin: 0 auto;
+    }
+
+    .home h1 {
+        font-size: 34px;
+    }
+    .home p {
+        width: 100%;
+        padding-right: 0%;
+    }
+
+    .mengapa h1 {
+        font-size: 30px;
+    }
+
+    .dekat1 h2 {
+        font-size: 20px;
+    }
+
+    .dekat1 p {
+        font-size: 18px;
+    }
+}
 
 
 
