@@ -145,7 +145,7 @@
 }
 .dekat1{
     display: block;
-    width: 350px;
+    width: 300px;
     height: auto;
     position: relative;
     align-items: center;
@@ -277,7 +277,7 @@
 .btn_wa a{
     font-family: 'poppins';
     color: #18191F;
-    padding: 1rem 5rem;
+    padding: 1rem 2rem;
     background-color: transparent;
 }
 .btn_wa{
@@ -286,7 +286,7 @@
     padding: 1rem 0;
 	background-color: #CFD9F5;
 	border-radius: 40px;
-    margin: 60px;
+    margin: 40px 100px;
     box-shadow: inset;
     box-shadow: 0px 5px 10px 0px rgba(39, 42, 247, 0.5)
 }
@@ -336,7 +336,7 @@
 }
 
 .tlsn_kiri {
-    width: 500px;
+    width: 450px;
 }
 .tlsn_kiri h1 {
     color: #4475F2;
@@ -351,7 +351,7 @@
 }
 
 .tbl_psn {
-    width: 600px;
+    width: 550px;
     display: block;
     justify-content: center;
 }
@@ -418,7 +418,7 @@ form {
 }
 
 .tentang {
-    width: 550px;
+    width: 500px;
 }
 
 .tentang h1 {
@@ -434,7 +434,7 @@ form {
 }
 
 .nomor {
-    width: 550px;
+    width: 500px;
 }
 
 .nomor h1 {
