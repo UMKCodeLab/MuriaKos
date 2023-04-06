@@ -398,8 +398,21 @@ form {
     margin-bottom: 30px;
     /* margin: 5% 5.25rem; */
 }
+.tbl_psn button {
+    padding-left: 30px;
+    border-radius: 15px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #FFFFFF;
+    line-height: 18px;
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 30px;
+    /* margin: 5% 5.25rem; */
+}
 
-.tbl_psn input[type="submit"]{
+.tbl_psn button[type="submit"]{
     cursor: pointer;
 }
 .tbl_psn textarea {
