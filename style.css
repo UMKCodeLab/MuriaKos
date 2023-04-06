@@ -255,9 +255,11 @@
 }
 
 .gambar li img {
-    justify-self: end;
-    display: flex;
-    text-decoration: none;
+
+    float: right;
+    /* justify-self: end; */
+    /* display: flex; */
+    /* text-decoration: none; */
     width: 58.6px;
     height: 61px;
     margin-right: 25px;
@@ -268,20 +270,23 @@
     background-color: transparent;
 }
 .gambar h3 {
-    float: left;
+    /* float: left; */
     margin-left: 10px;
     padding-top: 5px;
     font-family: 'poppins';
-    font-size: 32px;
+    font-size: 25px;
     background-color: transparent;
 }
+
 .btn_wa a{
+    text-align: center;
     font-family: 'poppins';
     color: #18191F;
     padding: 1rem 2rem;
     background-color: transparent;
 }
 .btn_wa{
+    /* justify-content: center; */
     text-align: center;
 	font-size: 15px;
     padding: 1rem 0;
