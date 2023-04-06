@@ -207,6 +207,10 @@
 }
 
 /* KONTEN */
+
+.one a {
+    color: #18191F;
+}
 .content{
     display: flex;
     flex-wrap: wrap;
