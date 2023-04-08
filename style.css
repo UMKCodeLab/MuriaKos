@@ -142,16 +142,26 @@
     gap: 1rem;
 }
 .mengapa img{
-    width: 48px;
-    height: 48px;
+    width: 63px;
+    height: 63px;
 }
 
 .mengapa h1{
-    text-align: center;
+
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 62px;
+    letter-spacing: -1px;
+    color: #4475F2;
+
+
+    /* text-align: center;
     color: #4475F2;
     display: block;
     font-family: 'plus jakarta sans';
-    font-size: 48px;
+    font-size: 48px; */
 }
 
 .dekat{
@@ -165,8 +175,10 @@
     z-index: 99999;
 }
 .dekat1{
+    /* width: 382px; */
+    /* height: 140px; */
     display: block;
-    width: 300px;
+    width: 325px;
     height: auto;
     position: relative;
     align-items: center;
