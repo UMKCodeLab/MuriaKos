@@ -88,7 +88,10 @@
 .home {
     /* max-width: max-content; */
     max-width: 100%;
-    padding: 5rem 7%;
+    height: 500px;
+    padding-left: 59px;
+    padding-top: 77px;
+    /* padding: 5rem 7%; */
     margin: 25px 7%;
     display: block;
     background-size: cover;
@@ -100,7 +103,9 @@
 
 .home h1 {
     text-align: left;
-    margin: 30px 0px;
+    /* margin-top: 77px;
+    margin-left: 59px; */
+    /* margin: 30px 0px; */
     font-size: 48px;
     letter-spacing: -0.04em;
     font-family: 'plus jakarta sans';
@@ -109,6 +114,8 @@
 }
 
 .home p {
+    margin-top: 40px;
+    margin-bottom: 40px;
     text-align: left;
     /* margin: 50px 40rem 50px 0px; */
     padding-right: 50% ;
@@ -121,7 +128,8 @@
 }
 
 .btn_masuk{
-    text-align: left;
+    /* display: flex; */
+    /* text-align: left; */
 	color: #4475F2;
 	font-size: 15px;
     padding: 1rem 2rem;
@@ -589,7 +597,7 @@ form {
     background-color: transparent;
 }
 /* .navbar_footer nav a:hover {
-	font-weight: bold;
+    font-weight: bold;
 	text-decoration-line: underline;
 } */
 
@@ -597,34 +605,233 @@ form {
 
 /* layar hp */
 @media only screen and (max-width: 600px) {
+    * {
+        scroll-behavior: smooth;
+        text-decoration: none;
+        list-style: none;
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+        border: none;
+        font-family: 'poppins' 'plus jakarta sans';
+        background-color: #EEEFF4;
+    }
+    
     .navbar nav {
         display: none;
     }
     .navbar_footer {
         display: none;
     }
+    
     .header h1 {
-        margin: 0 auto;
+        margin-left: 0;
+        width: 108px;
+        height: 33px;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .header h1 a {
+        font-size: 14px;
+        line-height: 21px;
+        color: #CFD9F5;
     }
 
+    .home {
+        width: 370px;
+        height: 390px;
+        background: linear-gradient(118.59deg, #4737FF 0%, #000000 214.71%);
+        border-radius: 30px;
+        /* margin: 0; */
+        padding: 20px 0 0 25px;
+    }
     .home h1 {
-        font-size: 34px;
+        width: 281px;
+        margin-left: 0;
+        padding-left: 0;
+        margin-top: 12px;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 50px;
+        letter-spacing: -0.04em;
     }
     .home p {
-        width: 100%;
-        padding-right: 0%;
+        width: 417.5px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        color: #CFD9F5;
     }
 
+    .btn_masuk{
+        /* display: flex; */
+        /* text-align: left; */
+        color: #4475F2;
+        font-size: 15px;
+        padding: 8px 14px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    
+
+
     .mengapa h1 {
-        font-size: 30px;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 62px;
+        letter-spacing: -1px;
+        color: #4475F2;
+    }
+
+    .mengapa img {
+        width: 41px;
+        height: 41px;
+    }
+
+    .dekat {
+        gap: 20px;
     }
 
     .dekat1 h2 {
-        font-size: 20px;
+    display: block;
+    font-family: 'poppins';
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 26px;
+    color: #18191F;
+    margin-bottom: 10px;
     }
 
     .dekat1 p {
+        font-size: 14px;
+    }
+    .peta {
+        padding-top: 20px;
+        width: 350px;
+        height: 290px;
+    }
+
+    .rekomen h1 {
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 62px;
+        letter-spacing: -1px;
+        color: #4475F2;
+    }
+
+    .rekomen img {
+        width: 41px;
+        height: 41px;
+    }
+
+    .teks-rekomen p {
+        margin-left: 30px;
+        margin-top: 0;
+        width: 396px;
+        height: 141px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
         font-size: 18px;
+        line-height: 32px;
+        font-feature-settings: 'liga' off;    
+        color: #18191F;
+    }
+
+    /* card kos */
+    .content {
+        gap: 0;
+        }
+    .gambar{
+        display: block;
+        background-color: #CFD9F5;
+        border-radius: 10px;
+        width: 312px;
+        height: 510px;
+        padding-bottom: 50px;
+        box-shadow: inset;
+        box-shadow: 0px 5px 10px 0px rgba(39, 42, 247, 0.5)
+    }
+    .gambar img{
+        height: 243px;
+        width: 312px;
+        border-start-end-radius: 10px;
+        border-start-start-radius: 10px;
+        /* border-radius: 10px; */
+        background-color: transparent;
+        display: block;
+        margin: auto;
+    
+    }
+    .gambar h1{
+        margin: 10px;
+        display: block;
+        text-align: left;
+        font-size: 24px;
+        font-family: 'poppins';
+        background-color: transparent;
+    }
+    .gambar p {
+        margin: 10px;
+        display: block;
+        text-align: left;
+        font-size: 18px;
+        font-family: 'poppins';
+        background-color: transparent;
+    }
+    
+    .gambar li img {
+    
+        float: right;
+        /* justify-self: end; */
+        /* display: flex; */
+        /* text-decoration: none; */
+        width: 39px;
+        height: 41px;
+        margin-right: 25px;
+        background-color: transparent;
+    
+    }
+    .gambar li {
+        background-color: transparent;
+    }
+    .gambar h3 {
+        /* float: left; */
+        margin-left: 10px;
+        padding-top: 5px;
+        font-family: 'poppins';
+        font-size: 24px;
+        background-color: transparent;
+    }
+    
+    .btn_wa a{
+        /* text-align: center; */
+        font-family: 'poppins';
+        color: #18191F;
+        padding: 0;
+        background-color: transparent;
+    }
+    .btn_wa{
+        /* justify-content: center; */
+        text-align: center;
+        font-size: 15px;
+        padding: 1rem 5rem;
+        background-color: #CFD9F5;
+        border-radius: 40px;
+        margin: 40px 100px;
+        box-shadow: inset;
+        box-shadow: 0px 5px 10px 0px rgba(39, 42, 247, 0.5)
     }
 }
 
