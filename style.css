@@ -227,11 +227,13 @@
     background-color: #CFD9F5;
     border-radius: 10px;
     width:350px;
+    height: 496.427px;
     padding-bottom: 50px;
     box-shadow: inset;
     box-shadow: 0px 5px 10px 0px rgba(39, 42, 247, 0.5)
 }
 .gambar img{
+    height: 197.094px;
     width: 350px;
     border-start-end-radius: 10px;
     border-start-start-radius: 10px;
