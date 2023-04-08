@@ -155,13 +155,6 @@
     line-height: 62px;
     letter-spacing: -1px;
     color: #4475F2;
-
-
-    /* text-align: center;
-    color: #4475F2;
-    display: block;
-    font-family: 'plus jakarta sans';
-    font-size: 48px; */
 }
 
 .dekat{
@@ -221,21 +214,36 @@
 /* ISI CONTENT KOST */
 .rekomen {
     display: flex;
+    margin: 0 auto;
     justify-content: center;
     gap: 1rem;
-    margin-bottom: 40px;
 }
 .rekomen img{
-    display: block;
-    width: 48px;
-    height: 48px;
+    width: 63px;
+    height: 63px;
 }
+
 .rekomen h1{
-    text-align: center;
-    color: #4475F2;
-    display: block;
-    font-family: 'plus jakarta sans';
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
     font-size: 48px;
+    line-height: 62px;
+    letter-spacing: -1px;
+    color: #4475F2;
+}
+
+.teks-rekomen p {
+    margin: 25px auto;
+    width: 847px;
+    height: 171px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    font-feature-settings: 'liga' off;
+    color: #18191F;
 }
 
 /* KONTEN */
