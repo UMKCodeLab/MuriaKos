@@ -28,13 +28,19 @@
     text-decoration: none;
     font-size: 24px;
     padding: 0.5rem 1.5rem;
-    background-color: #4475F2 ;
-    border-radius: 5px;
+    /* background-color: #4475F2 ;
+    border-radius: 5px; */
+    background: #4637FB;
+    border-radius: 10px;
     
 }
 .header h1 a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
     color: #CFD9F5;
-    font-family: 'poppins';
     background-color: transparent;
 }
 
