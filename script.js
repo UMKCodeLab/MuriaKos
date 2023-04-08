@@ -32,7 +32,7 @@ form.addEventListener('submit', e => {
         fetch(scriptURL, { method: 'POST', body: new FormData(form)})
             .then(response => {
                 if (response.ok) {
-                    alert('Terimakasih atas masukannya');
+                    alert('Terimakasih atas sarannya');
                     form.reset();
                 } else {
                     alert('pesan gagal dikirim. Silahkan coba kembali.');
