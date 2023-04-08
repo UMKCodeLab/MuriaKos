@@ -52,13 +52,27 @@
 }
 
 .navbar nav a {
-    font-family: sans-serif;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    color: #4475F2
+    /* font-family: sans-serif;
     color: #4475F2 ;
-	font-size: 18px;
+	font-size: 18px; */
 }
 .navbar nav a:hover {
-	font-weight: bold;
-	text-decoration-line: underline;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    text-decoration-line: underline;
+
+    color: #4475F2;
+
+	/* font-weight: bold;
+	text-decoration-line: underline; */
 }
 .navbar_menu a{
     color: #4475F2;
