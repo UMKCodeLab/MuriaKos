@@ -854,6 +854,26 @@ form {
         width: 41px;
         height: 41px;
     }
+
+    .tlsn_kiri h1 {
+        text-align: center;
+        /* width: 331px;
+        height: 87px;
+        font-weight: 600; */
+        font-size: 20px;
+    }
+
+    .tlsn_kiri p {
+        font-size: 18px;
+    }
+
+    .tbl_psn h1 {
+        font-size: 20px;
+    }
+
+    .tlsn_kiri p {
+        padding-left: 0;
+    }
 }
 
 
