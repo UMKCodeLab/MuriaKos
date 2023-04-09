@@ -836,17 +836,14 @@ form {
 
     
     .masukan h1 {
-        margin: 0;
-        font-family: 'Plus Jakarta Sans';
-        font-style: normal;
-        font-weight: 800;
         font-size: 24px;
-        line-height: 62px;
-        letter-spacing: -1px;
-        color: #4475F2;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .masukan img {
+        margin-left: 0;
+        margin-right: 0;
         width: 41px;
         height: 41px;
     }
