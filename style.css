@@ -882,6 +882,13 @@ form {
     .tlsn_kiri p {
         padding-left: 0;
     }
+    .klik-me p {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .klik-me img {
+        margin-left: 0px;
+    }
 }
 
 
