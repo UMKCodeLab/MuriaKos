@@ -548,6 +548,14 @@ form {
     color: #1C1E21;
 }
 
+.klik-me {
+    margin-top: 10px;
+    display: flex;
+}
+
+.klik-me img {
+    margin-right: 5px;
+}
 
 
 
